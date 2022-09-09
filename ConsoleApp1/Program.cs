@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Kordamine_Harjutus;
 
-Tootaja tootaja = new Tootaja("Mihkail", 1981, Tootaja.sugu.isane, "TTHK", "Programmer", 1600);
+Tootaja tootaja = new Tootaja("Andrej", 1990, Tootaja.sugu.isane, "TTHK", "Programmer", 1500);
 Opilane opilane = new Opilane("Artjom", 2004, Opilane.sugu.isane, "TTHK", "3.kursus", "Tarkvaraarendaja");
 Kutsekooliopilane kutseop = new Kutsekooliopilane("Mark", 2000, Opilane.sugu.emane, "TTHK", "Juuksur", 3);
 tootaja.print_Info();
