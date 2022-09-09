@@ -22,7 +22,7 @@ void changeName()
     string answer = Console.ReadLine();
     if (answer == "jah")
     {
-        Console.Write("kes see on (Opilane - 1/Tootaja - 2/Kutsekooliopilane - 3): ");
+        Console.Write("kes see on (1(Opilane), 2(Töötaja), 3(Kutsekooliopilane)): ");
         int answerWho = Convert.ToInt32(Console.ReadLine());
         Console.Write("kirjuta uus nimi ");
         string answerName = Console.ReadLine();
